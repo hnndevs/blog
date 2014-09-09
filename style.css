@@ -5,7 +5,7 @@ Start reset css
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
-del,dfn, em, img, ins, kbd, q, samp,
+del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var,
 b, i,
 dl, dt, dd, ol, ul, li,
@@ -97,14 +97,13 @@ input, select {
     vertical-align: middle;
 }
 
-/**
-End reset css
-*/
+/** <----------------------------------   END RESET RSS ----------------------------------> */
 
-body{
+body {
     text-align: center;
     width: 100%;
 }
+
 .heading {
     /*overflow: auto;*/
     text-align: center;
@@ -157,8 +156,25 @@ body{
     font-size: 20px;
 }
 
+.welcome {
+    display: inline-block;
+    width: 1240px;
+    margin-top: 200px;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 32pt;
+}
+
+.greeting {
+    display: inline-block;
+    width: 1240px;
+    margin-top: 50px;
+    color: #ffffff;
+    font-style: oblique;
+    font-size: 50pt;
+}
 
 /*#services{*/
-    /*width: 1240px;*/
-    /*margin: 60px auto 0 auto;*/
+/*width: 1240px;*/
+/*margin: 60px auto 0 auto;*/
 /*}*/
