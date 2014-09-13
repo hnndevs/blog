@@ -160,19 +160,42 @@ body {
     display: inline-block;
     width: 1240px;
     margin-top: 200px;
-    font-style: italic;
+    font-family: Comic Sans MS;
     color: #ffffff;
     font-size: 32pt;
+    margin-bottom: 50px;
 }
 
 .greeting {
     display: inline-block;
     width: 1240px;
-    margin-top: 50px;
     color: #ffffff;
-    font-style: oblique;
+    font-family: Comic Sans MS;
     font-size: 50pt;
+    margin-bottom: 100px;
+    text-transform: uppercase;
 }
+.button{
+    padding: 20px 40px;
+    border-color: #fed136;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Comic Sans MS;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #fed136;
+    text-decoration: none;
+}
+.serviceHeader{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.icon{
+    width: 33.33333333%;
+    float: left;
+}
+
 
 /*#services{*/
 /*width: 1240px;*/
